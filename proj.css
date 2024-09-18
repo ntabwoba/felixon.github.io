@@ -1,0 +1,208 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "sidebar-left content sidebar-right"
+        "footer footer footer";
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 650px;
+    gap: 1px;
+}
+
+.header {
+    grid-area: header;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.sidebar-left {
+    grid-area: sidebar-left;
+    background-color: pink;
+    padding: 20px;
+    overflow: scroll;
+}
+
+.content {
+    grid-area: content;
+    /* padding: 220px; */
+    /* column-count: 2; */
+    overflow: scroll;
+}
+
+.sidebar-right {
+    grid-area: sidebar-right;
+    background-color: hotpink;
+    padding: 20px;
+    overflow: scroll;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+input{
+    margin: 10px;
+   
+}
+a{
+    margin: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+  color: white;
+  margin: 2px 78px;
+  font-size: 18px;
+  transition-duration: 1s;
+}
+a:hover{
+    color:green;
+    transition-duration: 2ms;
+    text-decoration-line: underline;
+    text-decoration-color: hotpink;
+}
+.pct-slida img{
+    width: 210px;
+    height: 240px;
+    margin: 15px;
+}
+@keyframes slide {
+    0% {
+      left: 0px;
+    }
+    15% {
+      left: 0px;
+    }
+    20% {
+      left: -210px;
+    }
+    32% {
+      left: -210px;
+    }
+    35% {
+      left: -420px;
+    }
+    47% {
+      left: -420px;
+    }
+    50% {
+      left: -630px;
+    }
+    63% {
+      left: -630px;
+    }
+    66% {
+      left: -840px;
+    }
+    79% {
+      left: -840px;
+    }
+    82% {
+      left: -1050px;
+    }
+    100% {
+      left: 0px;
+    }
+  }
+  .pct-slida {
+    display: flex;
+    float: left;
+    position: relative;
+    width: 180px;
+    height: 250px;
+    animation-name: slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    transition-duration: 5s;
+  }
+  .logo a {
+    color: white;
+    transition-duration: 1s;
+    font-weight: 800;
+  }
+  .logo a:hover {
+    color: rgb(240, 197, 6);
+    transition-duration: 1s;
+  }
+  .logo {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    text-decoration: none;
+    float: left;
+    margin-left: 3px;
+  }
+
+  .form1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 400px;
+    background-color: aquamarine;
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 360px;
+    height: 420px;
+    border-radius: 20px;
+    border-bottom: 10px solid yellow;
+    border-right: 10px solid yellow;
+    border-top: 10px solid hotpink;
+    border-left: 10px solid hotpink;
+  }
+  input,label{
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  .andika{
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: width 6s, height 6s, transform 2s;
+  }
+  .andika:hover{
+			width: 400px;
+			height: 300px;
+			transform: rotate(360deg);
+  }
+  .par{
+    margin-left: 20px;
+  }
+  .btn{
+    margin-left: 40px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, greenyellow,red);
+  }
+  .btn:hover{
+    background: linear-gradient(30deg, red, black)
+  }
+  .bck{
+    background: linear-gradient(180deg, blue, white);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  .lgn{
+    text-align: center;
+  }
+  .pr{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+  }
+  .ink{
+    text-align: center;
+    color: white;
+    background: linear-gradient(150deg,red,blue);
+    border-radius: 17px;
+  }

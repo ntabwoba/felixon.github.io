@@ -1,0 +1,109 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+}
+span{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    padding: 25px 25px;
+    margin: 8px 160px;
+    border-radius: 10px;
+    background: linear-gradient(180deg,hotpink,blue);
+    box-shadow: inset -8px 0 8px rgba(red, green, blue, 0.15),
+    inset 0 -8px 8px rgba(red, green, blue, 0.25) 
+    0 0 0 2px rgba(red, green, blue, 0.75),
+    10px 20px 25px rgba(red, green, blue, 0.4);
+    overflow: hidden;
+}
+span::before{
+    content: "";
+    position:absolute;
+    top: 3px;
+    left: 4px;
+    bottom: 14px;
+    right: 12px;
+    background: linear-gradient(90deg, yellow,green);
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px rgba(red, green, blue, 0.25),
+    10px 5px 10px rgba(red, green, blue, 0.15);
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+    border-top: 1px solid white;
+}
+span i{
+    position: relative;
+    color: black;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    
+
+}
+h4{
+    margin: 8px 160px;
+}
+h3{
+    margin-left: 130px;
+} */
+
+table{
+    border-collapse: collapse;
+    margin-right: 30px;
+}
+th,td{
+    border: 2px solid blue;
+    width: 550px;
+    height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.ibiruhuko{
+    background:linear-gradient(360deg, red,yellow);
+    text-align: center;
+}
+.ibiruhuko1{
+    background: linear-gradient(90deg, hotpink,red);
+    text-align: center;
+}
+.ukwezi{
+    margin-left: 230px;
+    margin-top: 60px;
+}
+.term5{
+margin-left: 950px;
+}
+img{
+    margin-top: 20px;
+    margin-left: 260px;
+}
+.term1{
+    margin-left: 220px;
+    background: linear-gradient(30deg,white,hotpink);
+    margin-right: 20px;
+
+}
+.umutwe{
+    font-style: bold;
+    color: blue;
+    background: linear-gradient(240deg,white,brown);
+}
+footer{
+    background-color: lightblue;
+    height: 150px;
+    width: 100%;
+    margin: auto;
+
+}
